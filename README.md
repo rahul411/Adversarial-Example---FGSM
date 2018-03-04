@@ -13,9 +13,15 @@ To test the segmentation result on this perturbed image, run the following comma
 $ python inference.py --dataset=cityscapes --img-path=/path/to/perturbedImage --checkpoints=model
 ```
 #### Results
+**Original Image**
 ![Original Image](input/test_1024x2048.png?raw=true "Original Image" )
+**Original Segmentation result**
 ![Original Segmentation result](output/test_1024x2048.png?raw=true "Original Segmentation result")
+**Perturbed Image after 80 iterations**
 ![Perturbed Image after 80 iterations](input/advImage80.png?raw=true "Perturbed Image after 80 iterations")
+**Perturbed Image after 80 iterations- Segmentation result**
 ![Perturbed Image after 80 iterations- Segmentation result](output/advImage80.png?raw=true "Perturbed Image after 80 iterations- Segmentation result")
+**Perturbed Image after 40 iterations**
 ![Perturbed Image after 40 iterations](input/advImage40.png?raw=true "Perturbed Image after 40 iterations")
+**Perturbed Image after 40 iterations- Segmentation result**
 ![Perturbed Image after 40 iterations- Segmentation result](output/advImage40.png?raw=true "Perturbed Image after 40 iterations- Segmentation result")
